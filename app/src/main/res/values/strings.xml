@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">uts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="kumpulanoperasihitung">
+        <item>Tambah</item>
+        <item>Kurang</item>
+        <item>Kali</item>
+        <item>Bagi</item>
+    </string-array>
+    <string-array name="operatorKonversi1">
+        <item>Rupiah</item>
+        <item>Riyal</item>
+        <item>Ringgit</item>
+        <item>Bath</item>
+    </string-array>
+    <string-array name="operatorKonversi2">
+        <item>Rupiah</item>
+        <item>Riyal</item>
+        <item>Ringgit</item>
+        <item>Bath</item>
+    </string-array>
+    <string name="itenas1">Institut Teknologi Nasional</string>
+    <string name="Hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="bio">Institut Teknologi Nasional (Itenas) Bandung merupakan perguruan tinggi yang terletak di
+    Jl. PH.H. Mustopa No. 23 – Bandung. Area yang mudah dijangkau dari berbagai arah Kota Bandung menjadikan lokasi
+    Kampus Itenas cukup strategis. Dikelilingi oleh berbagai pusat perbelanjaan, pusat kuliner, percetakan, dan juga perumahan, Itenas menjadi salah satu kampus yang sangat hidup dan menyenangkan.</string>
+    <string name="title_activity_home">home</string>
+</resources>

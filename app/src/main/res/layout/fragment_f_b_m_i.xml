@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FBMI">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        style="@style/TextAppearance.Material3.HeadlineLarge"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        app:contentPadding="20dp"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi Badan"
+                android:textSize="20sp"
+                style="@style/TextAppearance.MaterialComponents.Body1"/>
+
+            <NumberPicker
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/heightpicker"
+                android:layout_marginHorizontal="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cm"
+                style="@style/TextAppearance.MaterialComponents.Body1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat Badan"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                style="@style/TextAppearance.MaterialComponents.Body1"/>
+
+            <NumberPicker
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/weightpicker"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="5dp"/>
+
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kg" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resultTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text=""
+            style="@style/TextAppearance.MaterialComponents.Body1"/>
+
+        <TextView
+            android:id="@+id/healthyTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text=""
+            style="@style/TextAppearance.MaterialComponents.Body1"/>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
