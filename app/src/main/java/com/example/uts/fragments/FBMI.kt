@@ -59,17 +59,18 @@ class FBMI : Fragment() {
         val doubleHeight = height.toDouble() / 100
 
         val weight = binding.weightpicker.value
-        val bmi = weight.toDouble() / (doubleHeight * doubleHeight)
+        val bmi = weight/ (doubleHeight * doubleHeight)
 
         binding.resultTV.append("\nKeterangan: " + healthyMessage(bmi))
-        binding.resultTV.text = String.format("BMI kamu adalah: %.2f", bmi)
+        binding.resultTV.text = String.format("BMI kamu adalah: %.2f\nKeterangan: %s", bmi, healthyMessage(bmi))
+
     }
 
     private fun healthyMessage(bmi: Double): String {
         return when {
             bmi < 18.5 -> "Berat badan kurang"
             bmi < 24.9 -> "Sehat"
-            bmi < 29.9 -> "Kegemukan"
+            bmi < 29.9 -> "Terlalu Gemuk"
             else -> "Obesitas"
         }
     }

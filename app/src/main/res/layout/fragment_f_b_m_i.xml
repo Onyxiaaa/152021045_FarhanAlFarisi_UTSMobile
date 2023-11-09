@@ -59,6 +59,15 @@
                 android:layout_marginTop="30dp"
                 style="@style/TextAppearance.MaterialComponents.Body1"/>
 
+            <TextView
+                android:id="@+id/resultTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text=""
+                style="@style/TextAppearance.MaterialComponents.Body1"/>
+
             <NumberPicker
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -74,23 +83,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/resultTV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:padding="10dp"
-            android:text=""
-            style="@style/TextAppearance.MaterialComponents.Body1"/>
 
-        <TextView
-            android:id="@+id/healthyTV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:padding="10dp"
-            android:text=""
-            style="@style/TextAppearance.MaterialComponents.Body1"/>
     </androidx.cardview.widget.CardView>
 
 </FrameLayout>
