@@ -11,7 +11,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BMI Calculator"
-        style="@style/TextAppearance.Material3.HeadlineLarge"
         android:padding="30dp"
         android:layout_gravity="center_horizontal"/>
 

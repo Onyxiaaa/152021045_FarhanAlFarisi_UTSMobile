@@ -68,17 +68,17 @@ class FGraph : Fragment() {
                 Log.i("Nilai", nilai.toString())
             }
             if (nilai.size == 0) {
-                text.setText("Masukan Matakuliah Indonesia")
+                text.setText("Masukan Nilai Matakuliah Indonesia")
             } else if (nilai.size == 1) {
-                text.setText("Masukan Matakuliah Agama")
+                text.setText("Masukan Nilai Matakuliah Agama")
             } else if (nilai.size == 2) {
-                text.setText("Masukan Matakuliah Matematika")
+                text.setText("Masukan Nilai Matakuliah Matematika")
             } else if (nilai.size == 3) {
-                text.setText("Masukan Matakuliah Fisika")
+                text.setText("Masukan Nilai atakuliah Fisika")
             } else if (nilai.size == 4) {
-                text.setText("Masukan Matakuliah Kimia")
+                text.setText("Masukan Nilai Matakuliah Kimia")
             } else if (nilai.size == 5) {
-                text.setText("Masukan Matakuliah Ekonomi")
+                text.setText("Masukan Nilai Matakuliah Ekonomi")
                 var nil = 0
                 for (i in nilai){
                     nil += i
@@ -92,7 +92,6 @@ class FGraph : Fragment() {
                     j=0
                 }
             }
-
 
 
             var myList = listOf(70, 80)

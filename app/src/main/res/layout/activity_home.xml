@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".home">
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/bio"
         android:justificationMode="inter_word"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="19dp"
         android:padding="20dp"
         />

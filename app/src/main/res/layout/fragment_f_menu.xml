@@ -63,7 +63,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@drawable/check"
+                        android:src="@drawable/settings"
                         android:layout_gravity="center"
                         android:contentDescription="Menu Item 1"
                         android:onClick="onMenuItem1Click"

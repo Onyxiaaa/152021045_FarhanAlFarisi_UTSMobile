@@ -15,6 +15,7 @@ import com.example.uts.R
 import com.example.uts.home
 import com.example.uts.login
 import com.example.uts.profile
+import com.example.uts.setting
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -46,7 +47,8 @@ class FMenu : Fragment() {
 
         val btn_profil = view.findViewById<ImageButton>(R.id.menu1)
         val btn_home = view.findViewById<ImageButton>(R.id.menu2)
-        val btn_logout = view.findViewById<ImageButton>(R.id.menu3)
+        val btn_setting = view.findViewById<ImageButton>(R.id.menu3)
+        val btn_logout = view.findViewById<ImageButton>(R.id.menu4)
 
         btn_profil.setOnClickListener{
             val pindah = Intent(requireActivity(), profile::class.java)
@@ -55,6 +57,10 @@ class FMenu : Fragment() {
 
         btn_home.setOnClickListener {
             val pindah = Intent(requireActivity(), home::class.java)
+            startActivity(pindah)
+        }
+        btn_setting.setOnClickListener {
+            val pindah = Intent(requireActivity(), setting::class.java)
             startActivity(pindah)
         }
 
